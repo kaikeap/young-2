@@ -91,3 +91,41 @@ div.galeria img{
     height: 200px;
     object-fit: cover;
 }
+
+section.section3 {
+display: grid;
+color: brown;
+place-items: center;
+}
+
+section.section3 div.formulario {
+ display: grid;
+ background-color: darkgrey;
+ border-radius: 10px;
+ padding: 20px;
+}
+
+form {
+display: grid;
+}
+
+input, textarea {
+padding: 20px;
+border-radius: 10px;
+margin: 10px;
+
+}
+
+button {
+border-radius: 10px;
+margin: 10px;
+font-size: 25px;
+font-family: 'poppins, sans-serif';
+}
+
+button:hover {
+background-color: red;
+cursor: pointer;
+transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
